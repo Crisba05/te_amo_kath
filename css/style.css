@@ -170,3 +170,47 @@ body{
     margin-top:20%;
     margin-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+    .greetings {
+        display: flex;
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .description {
+        font-size: 1.8rem;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    
+    .button a {
+        font-size: 1rem;
+        padding: 10px 20px;
+        display: inline-block;
+    }
+    
+    .michi {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+    }
+    
+    .michidiv img {
+        border-radius: 15px;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        padding-top: 100px;
+        height: auto;
+        align-items: center;
+    }
+}
