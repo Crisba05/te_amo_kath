@@ -142,6 +142,10 @@ body{
         margin: 0 auto;
      
     }
+    .conteiner{
+        
+        padding-top: 100px;
+    }
 }
 .michi{
     display: flex;
@@ -158,6 +162,6 @@ body{
 
 .conteiner{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 5%;
     margin-bottom: 10px;
 }
